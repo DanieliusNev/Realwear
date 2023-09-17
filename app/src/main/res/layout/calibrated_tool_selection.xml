@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="380dp"
+        android:layout_height="244dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/reactangle" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="122dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="367dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="365dp"
+        android:text="Selection"
+        android:textColor="#050303"
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/toolsSelection"
+        android:layout_width="wrap_content"
+        android:layout_height="219dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="412dp" />
+
+    <Button
+        android:id="@+id/selectedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolsSelection"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="64dp"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/backToToolsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolsSelection"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="15dp"
+        android:text="Back" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="198dp"
+        android:layout_marginTop="27dp"
+        android:text="Turbine No."
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="79dp"
+        android:layout_height="68dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="-3dp"
+        app:srcCompat="@drawable/wind_power" />
+
+    <EditText
+        android:id="@+id/component"
+        android:layout_width="308dp"
+        android:layout_height="62dp"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="42dp"
+        android:ems="10"
+        android:hint="Component"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorLink="#000000" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="152dp"
+        android:text="Component No."
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/EditTurbines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolsSelection"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="47dp"
+        android:layout_toStartOf="@+id/selectedButton"
+        android:text="Edit" />
+
+</RelativeLayout>

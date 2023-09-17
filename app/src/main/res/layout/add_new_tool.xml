@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dp"
+    android:layout_height="300dp">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/addTool"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp"
+        android:hint="Add Turbine" />
+
+</RelativeLayout>
